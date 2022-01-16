@@ -1,0 +1,74 @@
+$titleAlign: left;
+$fontSize1: 26px;
+$fontSize2:30px;
+$fontSize3: 40px;
+$color1: rgba(7, 71, 95, 0.6);
+$color2: rgba(30, 136, 178, 0.6);
+$color3: white;
+
+*{
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+    color: $color3;
+    margin: 0px;
+}
+body {
+    background-image: url("assets/resources/7517-futbol.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+}
+.encabezado {
+    background-color: $color1;
+    height: 200px;
+    padding-right: 60px;
+    padding-top: 15px;
+    font-size: $fontSize3;
+    text-align: right;
+    text-shadow: 6px 6px black;
+}
+
+.menu{
+    margin-top: 50px;
+    float: left;
+    width: 18%;
+    font-size: $fontSize1;
+}
+.menu__opc{
+    margin-top: 10px;
+    background-color:$color1;
+    color: $color3;
+    text-decoration: none;
+    padding: 20px;
+    display: block;
+    text-shadow: 3px 3px #454E52;
+}
+.menu__opc:hover{
+    background-color: $color2;
+    color: $color3;
+
+}
+img{
+   width: 200px;
+   margin: -120px 5px 10px 50px;
+
+}
+
+h2{
+    background-color: rgba(7, 70, 95, 0.6);
+    text-shadow: 6px 6px black;
+    height: 80px;
+    text-align: right;
+    font-size: $fontSize3;
+    margin: -90px 00px 20px 1130px;
+    padding: 15px 70px;
+    
+    
+}
+
+.contenido{
+    margin: 100px 40px 300px 500px ;
+    font-size: $fontSize1;
+}
