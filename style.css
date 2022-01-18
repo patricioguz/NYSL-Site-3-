@@ -34,7 +34,6 @@ body {
 .menu__opc {
   margin-top: 10px;
   background-color: rgba(7, 71, 95, 0.6);
-  color: white;
   text-decoration: none;
   padding: 20px;
   display: block;
@@ -43,7 +42,6 @@ body {
 
 .menu__opc:hover {
   background-color: rgba(30, 136, 178, 0.6);
-  color: white;
 }
 
 img {
@@ -52,7 +50,7 @@ img {
 }
 
 h2 {
-  background-color: rgba(7, 70, 95, 0.6);
+  background-color: rgba(7, 71, 95, 0.6);
   text-shadow: 6px 6px black;
   height: 80px;
   text-align: right;
@@ -62,7 +60,22 @@ h2 {
 }
 
 .contenido {
-  margin: 100px 40px 300px 500px;
+  background-color: rgba(7, 71, 95, 0.6);
+  width: 60%;
+  height: 200%;
+  border-radius: 1%;
+  border-style: double;
+  border-color: rgba(30, 136, 178, 0.6);
+}
+
+.contenido {
+  line-height: 140%;
+  margin: 70px 40px 250px 500px;
+  padding: 30px 50px;
   font-size: 26px;
+}
+
+.contenido__horario {
+  padding-left: 100px;
 }
 /*# sourceMappingURL=style.css.map */
