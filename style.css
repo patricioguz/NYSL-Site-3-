@@ -55,7 +55,7 @@ h2 {
   height: 80px;
   text-align: right;
   font-size: 40px;
-  margin: -90px 00px 20px 1130px;
+  margin: -90px 00px 70px 1130px;
   padding: 15px 70px;
 }
 
@@ -70,12 +70,53 @@ h2 {
 
 .contenido {
   line-height: 140%;
-  margin: 70px 40px 250px 500px;
+  margin: 20px 40px 250px 500px;
   padding: 30px 50px;
   font-size: 26px;
 }
 
 .contenido__horario {
   padding-left: 100px;
+}
+
+.contenido__tabla {
+  text-align: center;
+  width: 1000px;
+}
+
+.maps {
+  margin: 10px 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.datos__personales {
+  line-height: 190%;
+}
+
+.boton {
+  margin-top: 20px;
+  font-size: 23px;
+  color: white;
+  background: rgba(7, 71, 95, 0.6);
+  border: 0px;
+  width: 360px;
+  height: 40px;
+}
+
+.boton:hover {
+  background-color: rgba(30, 136, 178, 0.6);
+}
+
+.reglasfifa {
+  background-color: rgba(7, 71, 95, 0.6);
+  width: 60%;
+  height: 200%;
+  border-style: double;
+  border-color: rgba(30, 136, 178, 0.6);
+  font-size: 30px;
+  margin: 20px 500px;
+  text-align: center;
 }
 /*# sourceMappingURL=style.css.map */

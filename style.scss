@@ -5,6 +5,8 @@ $fontSize3: 40px;
 $color1: rgba(7, 71, 95, 0.6);
 $color2: rgba(30, 136, 178, 0.6);
 $color3: white;
+$interlineado: 190%;
+
 
 *{
     box-sizing: border-box;
@@ -40,8 +42,7 @@ body {
 
 .menu__opc{
     margin-top: 10px;
-    background-color:$color1;
-    
+    background-color:$color1; 
     text-decoration: none;
     padding: 20px;
     display: block;
@@ -63,26 +64,66 @@ h2{
     height: 80px;
     text-align: right;
     font-size: $fontSize3;
-    margin: -90px 00px 20px 1130px;
+    margin: -90px 00px 70px 1130px;
     padding: 15px 70px;
 }
+
 .contenido{
-    
     background-color: $color1;
     width: 60%;
     height: 200%; 
     border-radius: 1%;
     border-style: double;
-    border-color: $color2;
-    
+    border-color: $color2; 
 }
 
 .contenido{
     line-height: 140%;
-    margin: 70px 40px 250px 500px ;
+    margin: 20px 40px 250px 500px ;
     padding: 30px 50px;
     font-size: $fontSize1;
 }
+
 .contenido__horario{
     padding-left: 100px;
+}
+
+.contenido__tabla{
+    text-align: center;
+    width: 1000px;
+}
+
+.maps{
+    margin: 10px 300px;
+    display: flex;
+   
+}
+.datos__personales {
+    line-height: $interlineado;
+    
+}
+.boton{
+    margin-top: 20px;
+    font-size:23px;
+    
+    
+    color:white;
+    background:$color1;
+    border:0px;
+    width:360px;
+    height:40px;
+}
+.boton:hover{
+    background-color: $color2;
+}
+
+.reglasfifa{
+    background-color: $color1;
+    width: 60%;
+    height: 200%; 
+    border-style: double;
+    border-color: $color2;
+    font-size: $fontSize2;
+    margin: 20px 500px;
+    text-align: center;
 }

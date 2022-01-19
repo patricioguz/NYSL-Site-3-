@@ -34,7 +34,7 @@
     <h2 class="titulo-h2"> FORMULARIO DE REGISTRO</h2> 
 
     <form class="contenido" action="show_data.html" method="get">
-        <div class="datos-personales">
+        <div class="datos__personales">
             <label for="name">Nombre del Jugador</label>
             <input type="text" id="name" name="name" placeholder="Nombres" size="35" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <label for="lastname">Apellidos</label>
@@ -48,17 +48,15 @@
             <label>Fecha de Nacimiento</label>
             <input type="date" id="birth" name="birth" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <!--<label for="gender"> Género: 
-            </label> <br> -->
+            
             <div>
                 Género:
                 <label> Hombre</label>
-                <input type="radio" id="gendermale" name="gendermale" >
+                <input type="radio" id="gendermale" name="gendermale">
                 <label> Mujer</label>
                 <input type="radio" id="genderfemale" name="genderfemale">
             </div>
-            <!--<label for="grade"> Grado: 
-            </label>-->
+           
             <div>
                 Grado:
                 <label> Pre-escolar</label>
@@ -72,49 +70,46 @@
                 <label> 4to</label>
                 <input type="radio" id="fourth" name="fourth" >
                 <label> 5to</label>
-                <input type="radio" id="fifth" name="fifth" > 
+                <input type="radio" id="fifth" name="fifth" > <br><br>
             </div>
             
         </div>
     
-        <div class="datos-escolares">
+        <div class="datos__personales">
             <h4>¿DE QUE ESCUELA VIVES MÁS CERCA?</h4>
             <h4>Escuelas mas cercanas:</h4>
-            <div class="col1">
+            <div >
                 <label> AJ Katzenmaier</label>
                 <input type="radio" id="schoolAJK" name="schoolAJK" ><br>
                 <label> Greenbay</label>
                 <input type="radio" id="schoolGB" name="schoolGB" ><br>
                 <label> Howard A. Yeager</label>
                 <input type="radio" id="schoolHAY" name="schoolHAY" ><br>
-            </div>
-            <div class="col2">
                 <label> Marjorie P. Hart</label>
                 <input type="radio" id="schoolMPA" name="schoolMPA" ><br>
                 <label> North Elementary</label>
                 <input type="radio" id="schoolNE" name="schoolNE" ><br>
                 <label> South Elementary</label>
-                <input type="radio" id="schoolSE" name="schoolSE" ><br>
-            </div>      
+                <input type="radio" id="schoolSE" name="schoolSE" ><br><br>
+            </div>
     
             <h4>¿QUE POSICION(ES) JUEGAS NORMALMENTE? (Marque todas las que corresponde)</h4>
-            <div class="datos-juego" >
+            <div class="datos__personales" >
                 <div class="col1">
                     <label> Delantero</label>
                     <input type="checkbox" id="Delantero" name="Delantero" ><br>
                     <label> Portero</label>
-                    <input type="checkbox" id="Portero" name="Portero"><br><br>
-                </div>
-                <div class="col2">
+                    <input type="checkbox" id="Portero" name="Portero"><br>
                     <label> Mediocampo</label>
                     <input type="checkbox" id="Mediocampo" name="Mediocampo"><br>
                     <label> Defensa</label>
-                    <input type="checkbox" id="Defensa" name="Defensa"><br>
-                </div>  
+                    <input type="checkbox" id="Defensa" name="Defensa"><br><br>
+                </div>
+                 
             </div>
     
             <h4>TAMAÑO UNIFORME</h4>
-            <div class="datos-uniforme">
+            <div class="datos__personales">
                 <div class="col1">
                     <label> Niño P</label>
                     <input type="radio" id="NiñoP" name="NiñoP" ><br>
@@ -131,7 +126,7 @@
                     <label> Grande</label>
                     <input type="radio" id="Grande" name="Grande" ><br>
                     <label> Extra-Grande</label>
-                    <input type="radio" id="Extra-Grande" name="Extra-Grande" ><br> 
+                    <input type="radio" id="Extra-Grande" name="Extra-Grande" ><br> <br>
                 </div>    
             </div>
         </div>
@@ -144,7 +139,7 @@
                 y voluntarios, incluyendo las instalaciones utilizadas para prácticas y juegos, contra cualquier reclamo por o en nombre del solicitante de registro como resultado
                 de la participación del solicitante del programa y/o en el transporte desde o hacia las actividades patrocinadas por NYSL.</p>
             <p>Al firmar a continuación, acuerdo y autorizo lo anterior. Además, al firmar a continuación, reconozco que he leído la política de cancelación y 
-                acepto sus términos.</p>
+                acepto sus términos.</p><br><br>
         </div>
     
         <div class="autorizacion">
@@ -153,8 +148,8 @@
             <label>FECHA</label>
             <input type="date" id="date" name="date">
         </div>
-        <div class="Enviar">
-            <input type="submit" value="Autorizar y Enviar">
+        <div>
+            <input  type="submit" value="Autorizar y Enviar" class="boton">
         </div>
     </form>
 </body>
